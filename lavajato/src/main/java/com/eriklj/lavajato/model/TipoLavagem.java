@@ -1,4 +1,4 @@
-package com.eriklj.lavajato.entity;
+package com.eriklj.lavajato.model;
 
 public enum TipoLavagem {
     SIMPLESMOTO,

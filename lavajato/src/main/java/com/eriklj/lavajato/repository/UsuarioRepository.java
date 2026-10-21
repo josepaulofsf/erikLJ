@@ -1,9 +1,9 @@
 package com.eriklj.lavajato.repository;
 
+import com.eriklj.lavajato.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import com.eriklj.lavajato.entity.Usuario;
-
-public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
-    
-} 
+@Repository
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+}
