@@ -2,6 +2,8 @@ package com.eriklj.lavajato.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.eriklj.lavajato.dto.LavagemPostDto;
 import com.eriklj.lavajato.dto.LavagemPutDto;
 import com.eriklj.lavajato.dto.LavagemResponseDto;

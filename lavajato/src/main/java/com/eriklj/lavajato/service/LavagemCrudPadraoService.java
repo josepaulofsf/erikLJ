@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.eriklj.lavajato.dto.LavagemPostDto;
 import com.eriklj.lavajato.dto.LavagemPutDto;
@@ -12,6 +13,7 @@ import com.eriklj.lavajato.dto.LavagemResponseDto;
 import com.eriklj.lavajato.model.Lavagem;
 import com.eriklj.lavajato.repository.LavagemRepository;
 
+@Service 
 public class LavagemCrudPadraoService implements LavagemCrudService{
 
     @Autowired 

@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.hibernate.annotations.Audited;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.eriklj.lavajato.dto.UsuarioPostDto;
 import com.eriklj.lavajato.dto.UsuarioPutDto;
@@ -13,7 +14,7 @@ import com.eriklj.lavajato.repository.UsuarioRepository;
 
 import org.modelmapper.ModelMapper;
 
-
+@Service 
 public class UsuarioCrudPadraoService implements UsuarioCrudService{
 
     @Autowired 
